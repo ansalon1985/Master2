@@ -1,0 +1,4 @@
+---
+- hosts: localhost
+  tasks:
+  - shell: xlsx2csv Server_Inventory_Oracle.xlsx Server_Inventory_Oracle.csv
